@@ -1,0 +1,26 @@
+{
+  "symbol": "spy.us",
+  "start": "2015-01-02",
+  "end": "2026-01-30",
+  "initial_cash": 100000.0,
+  "final_equity": 210207.20282299997,
+  "final_drawdown": 0.005048236874038807,
+  "max_drawdown": 0.3004963447702146,
+  "max_gross_exposure": 210733.47,
+  "max_var": 7540.515359999996,
+  "num_fills": 378,
+  "num_alerts": 1948,
+  "limits": {
+    "max_gross_exposure": 200000.0,
+    "max_drawdown": 0.2,
+    "max_var": 2500.0
+  },
+  "var": {
+    "window": 250,
+    "alpha": 0.99
+  },
+  "execution": {
+    "slippage_bps": 2.0,
+    "commission": 1.0
+  }
+}
